@@ -1,0 +1,26 @@
+{
+  "name": "gulp-ractive",
+  "description": "Gulp plugin for ractive templating",
+  "version": "0.0.1",
+  "homepage": "http://github.com/jvanveen/gulp-ractive",
+  "repository": "git://github.com/jvanveen/gulp-ractive.git",
+  "author": "Jeroen van Veen",
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jvanveen/gulp-ractive/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "event-stream": "^3.1.7",
+    "gulp-concat-util": "^0.5.1",
+    "gulp-util": "^3.0.1",
+    "lodash.assign": "^2.4.1",
+    "ractive": "^0.6.1",
+    "through2": "^0.6.3"
+  }
+}
