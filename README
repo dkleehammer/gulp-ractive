@@ -1,0 +1,13 @@
+A simple plugin that writes compiled ractive templates to a javascript file.
+Gulp example:
+
+    gulp.task('templates', function() {
+      gulp.src("./templates/*.html")
+        .pipe(ractive('templates.js', {
+            namespace: '_GLOBAL.templates'
+        }))
+        .pipe(filesize())
+        .pipe(gulp.dest('./public/js/'))
+        .pipe(ifElse(!isProduction, livereload))
+    })
+
