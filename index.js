@@ -10,7 +10,7 @@ var extend = require('lodash.assign')
 var os = require('os')
 var path = require('path')
 // var map = require('map-stream')
-var Concat = require('concat-with-sourcemaps');
+var Concat = require('concat-with-sourcemaps')
 // consts
 var PLUGIN_NAME = 'gulp-ractive'
 
@@ -27,7 +27,7 @@ var defaults = {
 }
 
 function gulpRactive(name, config) {
-    var options = extend({}, defaults, config || {});
+    var options = extend({}, defaults, config || {})
     var concat, firstFile, fileName;
 
     var templates = {}
